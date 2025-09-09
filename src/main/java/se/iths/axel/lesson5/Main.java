@@ -14,5 +14,15 @@ public class Main {
         saab.printInfo();
 
         tesla.printInfo();
+
+        Student student1 = new Student("Axel", "Male", 26, 4);
+
+        Student student2 = new Student("Philip", "Male", 25, 3.4);
+
+        Student student3 = new Student("Molly", "Female", 24, 4.2);
+
+        student1.printInfo();
+        student2.printInfo();
+        student3.printInfo();
     }
 }

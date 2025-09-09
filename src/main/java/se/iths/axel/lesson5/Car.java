@@ -18,4 +18,8 @@ public class Car {
         System.out.println("Price: " + price);
     }
 
+    public Car() {
+
+    }
+
 }
