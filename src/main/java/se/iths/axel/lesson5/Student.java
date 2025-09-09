@@ -1,10 +1,10 @@
 package se.iths.axel.lesson5;
 
 public class Student {
-    String name;
-    String gender;
-    int age;
-    double gpa;
+    private String name;
+    private String gender;
+    private int age;
+    private double gpa;
 
     public Student(String name, String gender, int age, double gpa) {
         this.name = name;
