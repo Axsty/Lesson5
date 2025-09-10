@@ -2,23 +2,28 @@ package se.iths.axel.lesson5;
 
 public class Student {
     private String name;
-    private String gender;
-    private int age;
-    private double gpa;
+    private int studentId;
+    private double grade;
 
-    public Student(String name, String gender, int age, double gpa) {
+    public Student(String name, int studentId, double grqde) {
         this.name = name;
-        this.gender = gender;
-        this.age = age;
-        this.gpa = gpa;
+        this.studentId = studentId;
+        this.grade = grade;
 
+    }
+
+    public double setGrade() {
+        return grade;
+    }
+
+    public void getGrade(double grade) {
+        this.grade = grade;
     }
 
     public void printInfo() {
         System.out.println("Name: " + name);
-        System.out.println("Gender: " + gender);
-        System.out.println("Age: " + age);
-        System.out.println("GPA: " + gpa);
+        System.out.println("StudentID: " + studentId);
+        System.out.println("Grade: " + grade);
     }
 
 }
